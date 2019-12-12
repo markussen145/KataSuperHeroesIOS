@@ -20,7 +20,7 @@ class SuperHeroesViewControllerTests: AcceptanceTestCase {
         givenThereAreNoSuperHeroes()
 
         openSuperHeroesViewController()
-
+        
         tester().waitForView(withAccessibilityLabel: "¯\\_(ツ)_/¯")
     }
 
